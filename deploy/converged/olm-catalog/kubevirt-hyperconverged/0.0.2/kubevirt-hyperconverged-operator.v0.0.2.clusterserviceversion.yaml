@@ -1,7 +1,7 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: ClusterServiceVersion
 metadata:
-  name: kubevirt-hyperconverged-operator.v0.0.1
+  name: kubevirt-hyperconverged-operator.v0.0.2
   namespace: placeholder
   annotations:
     capabilities: "Full Lifecycle"
@@ -87,7 +87,7 @@ spec:
   keywords:
     - KubeVirt
     - Virtualization
-  version: 0.0.1
+  version: 0.0.2
   maturity: alpha
   maintainers:
     - name: KubeVirt project
@@ -1145,12 +1145,12 @@ spec:
                   - "2"
                   env:
                   - name: OPERATOR_IMAGE
-                    value: kubevirt/virt-operator:v0.16.3
+                    value: kubevirt/virt-operator:v0.17.0
                   - name: WATCH_NAMESPACE
                     valueFrom:
                       fieldRef:
                         fieldPath: metadata.annotations['olm.targetNamespaces']
-                  image: kubevirt/virt-operator:v0.16.3
+                  image: kubevirt/virt-operator:v0.17.0
                   imagePullPolicy: IfNotPresent
                   name: virt-operator
                   ports:
