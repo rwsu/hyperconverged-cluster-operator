@@ -1,4 +1,6 @@
 packageName: kubevirt-hyperconverged
 channels:
-- name: alpha
+- name: alpha-1
+  currentCSV: kubevirt-hyperconverged-operator.v0.0.1
+- name: alpha-2
   currentCSV: kubevirt-hyperconverged-operator.v0.0.2
