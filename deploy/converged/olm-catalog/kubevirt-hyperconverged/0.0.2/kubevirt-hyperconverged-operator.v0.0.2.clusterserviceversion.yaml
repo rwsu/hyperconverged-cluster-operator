@@ -88,6 +88,7 @@ spec:
     - KubeVirt
     - Virtualization
   version: 0.0.2
+  replaces: kubevirt-hyperconverged-operator.v0.0.1
   maturity: alpha
   maintainers:
     - name: KubeVirt project
