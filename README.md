@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/kubevirt/hyperconverged-cluster-operator.svg?branch=master)](https://travis-ci.org/kubevirt/hyperconverged-cluster-operator)
+[![Build Status](https://travis-ci.org/rwsu/hyperconverged-cluster-operator.svg?branch=master)](https://travis-ci.org/rwsu/hyperconverged-cluster-operator)
 [![Coverage Status](https://coveralls.io/repos/github/rwsu/hyperconverged-cluster-operator/badge.svg?branch=master&service=github)](https://coveralls.io/github/rwsu/hyperconverged-cluster-operator?branch=master)
 
 # Hyperconverged Cluster Operator
